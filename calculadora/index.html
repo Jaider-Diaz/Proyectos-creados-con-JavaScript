@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/calculadora/style.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <button id="abrirSidebar">☰ Ver proyectos de js</button>
+    <div id="sidebar" class="sidebar">
+        <button id="cerrarSidebar">✖</button>
+        <ul>
+            <li><a href="/calculadora/index.html">Calculadora</a></li>
+            <li><a href="/Reloj digital/index.html">Reloj digital</a></li>
+            <li><a href="/Contador/index.html">Contador</a></li>
+            <li><a href="/Juego adivinanza/index.html">Juego de adivinanza</a></li>
+            <li><a href="/Quiz con js/index.html">Quiz</a></li>
+        </ul>
+    </div>
+    <h1 class="h1Calculadora">Calculadora con Javascript</h1>
+    <div class="calculadora">
+        <input type="text" id="pantalla" readonly>
+        <br>
+        <input type="button" value="1" onclick="agregar('1')">
+        <input type="button" value="2" onclick="agregar('2')">
+        <input type="button" value="3" onclick="agregar('3')">
+        <input type="button" value="+" onclick="agregar('+')">
+        <br>
+        <input type="button" value="4" onclick="agregar('4')">
+        <input type="button" value="5" onclick="agregar('5')">
+        <input type="button" value="6" onclick="agregar('6')">
+        <input type="button" value="-" onclick="agregar('-')">
+        <br>
+        <input type="button" value="7" onclick="agregar('7')">
+        <input type="button" value="8" onclick="agregar('8')">
+        <input type="button" value="9" onclick="agregar('9')">
+        <input type="button" value="*" onclick="agregar('*')">
+        <br>
+        <input type="button" value="0" onclick="agregar('0')">
+        <input type="button" value="." onclick="agregar('.')">
+        <input type="button" value="/" onclick="agregar('/')">
+        <input type="button" value="=" onclick="calcular('')">
+        <br>
+        <input type="button" value="C" onclick="borrar('')">
+        <script src="script.js"></script>
+        <script src="/index.js"></script>
+    </div>
+</body>
+
+</html>

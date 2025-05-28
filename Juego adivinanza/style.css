@@ -1,0 +1,42 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedorAdivinanza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 20px;
+  gap: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 40%;
+  margin: 20px 0 0 400px;
+}
+
+h1 {
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#mensaje {
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+}

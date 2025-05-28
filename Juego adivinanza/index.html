@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Juego adivinanza/style.css">
+    <link rel="stylesheet" href="/index.css">
+    <title>Juego de adivinar el número</title>
+</head>
+
+<body>
+    <button id="abrirSidebar">☰ Ver proyectos de js</button>
+    <div id="sidebar" class="sidebar">
+        <button id="cerrarSidebar">✖</button>
+        <ul>
+            <li><a href="/calculadora/index.html">Calculadora</a></li>
+            <li><a href="/Reloj digital/index.html">Reloj digital</a></li>
+            <li><a href="/Contador/index.html">Contador</a></li>
+            <li><a href="/Juego adivinanza/index.html">Juego de adivinanza</a></li>
+            <li><a href="/Quiz con js/index.html">Quiz</a></li>
+        </ul>
+    </div>
+    <div class="contenedorAdivinanza">
+        <h1>¡Vamos! Adivinemos el número</h1>
+        <p>Introduce un número entre 1 y 100:</p>
+        <input type="number" id="numeroEntrada">
+        <button onclick="chequearResultado()">Comprobar</button>
+        <p id="mensaje">¡A jugar!</p>
+        <h3>Cantidad de intentos</h3>
+        <p id="intento">0</p>
+    </div>
+    <script src="/Juego adivinanza/script.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>
